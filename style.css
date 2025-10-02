@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #003580;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.header-right a {
+    color: white;
+    margin-right: 15px;
+}
+.header-right button {
+    background: #ffdd00;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+.search-section {
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+.search-section form input,
+.search-section form select {
+    padding: 10px;
+    margin: 5px;
+    width: 180px;
+}
+.search-section .filters button {
+    margin: 5px;
+    padding: 8px 12px;
+}
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+.sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    margin-right: 20px;
+}
+.train-options {
+    flex: 1;
+}
+.date-tabs button {
+    margin: 5px;
+    padding: 8px 12px;
+}
+.train-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #003580;
+}
+.train-card h3 {
+    margin-top: 0;
+}
+.class-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.banner {
+    background: #ffdd00;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.train-card button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.train-card button:hover {
+  background-color: #218838;
+}
